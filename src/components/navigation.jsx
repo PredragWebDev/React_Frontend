@@ -5,11 +5,12 @@ export const Navigation = (props) => {
     <nav id='menu' className='navbar'>
       <div className="nav-bar">
         
-        <h1 className="nav-h1">
+        <h1>
           <img src="./img/logo.PNG" alt="" className="nav-logo"/>
-          
-          Tranding Place
+          TrandingPlace
         </h1>
+
+        
         
 
         <div

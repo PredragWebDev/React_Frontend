@@ -1,8 +1,8 @@
-import "./practice.css";
+import "./yourself.css";
 
 export const Yourself = (props) => {
   return (
-    <div className='practice'>
+    <div className='yourself'>
       <div className='mainboard'>
         
         <div className='txt'>

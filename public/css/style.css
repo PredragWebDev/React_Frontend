@@ -596,15 +596,15 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+  background: #323a56;
+  padding: 10px 0;
 }
 #footer p {
-  color: #888;
+  color: white;
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: yellow;
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;

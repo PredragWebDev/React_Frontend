@@ -2,7 +2,7 @@ import "./trade.css";
 
 export const Trade = (props) => {
   return (
-    <div className='practice'>
+    <div className='trade'>
       <div className='mainboard'>
         
         <div className='img'>
