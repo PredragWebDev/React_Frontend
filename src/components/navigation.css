@@ -1,0 +1,33 @@
+.nav-logo {
+    width:25px;
+    height:25px;    
+}
+
+.nav-h1 {
+    font-size:25px;
+    margin:0;
+    padding:10px;
+}
+
+.nav-bar {
+    display:flex;
+    justify-content: space-between ;
+    align-items: center ;
+}
+
+.getstared-btn, .login-btn {
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center ; 
+    font-size: 14px;
+    background: #e7fb04 ;
+    border-radius: 18px;
+    margin-top: 10px;
+    color: black ;
+    letter-spacing: 2px;
+    font-weight: bold ;
+}
+#login_btn {
+    background: #323a56 ;
+    color: white ;
+}
