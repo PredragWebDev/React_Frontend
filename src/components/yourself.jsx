@@ -11,7 +11,7 @@ export const Yourself = (props) => {
           </div>
         </div>
         <div className='img'>
-          <img src="./img/mobile.svg" alt="" className="image"/>
+          <img src="./img/yourself.svg" alt="" className="image"/>
         </div>
       </div>
       

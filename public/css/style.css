@@ -605,6 +605,7 @@ label {
 }
 #footer a {
   color: yellow;
+  padding:10px;
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;

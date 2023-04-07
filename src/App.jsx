@@ -1,11 +1,10 @@
-import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Stock } from "./components/stock";
-import { Practice } from "./components/practice";
-import { Trade } from "./components/trade";
-import { Yourself } from "./components/yourself";
-import { Faqs } from "./components/faqs";
-import {Footer} from "./components/footer";
+import { Login } from "./pages/login";
+import { Signup } from "./pages/signup";
+
+import { LandingPage } from "./pages/landingpage";
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -18,13 +17,13 @@ const App = () => {
 
   return (
     <div>
-      <Navigation/>
-      <Stock/>
-      <Practice/>
-      <Trade/>
-      <Yourself/>
-      <Faqs />
-      <Footer/>
+      <Router>
+          <Routes>
+            <Route exact path='/' element={<LandingPage />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<Signup />} />
+          </Routes>
+      </Router>
     </div>
   );
 };

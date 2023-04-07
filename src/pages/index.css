@@ -1,0 +1,114 @@
+.button-wrapper {
+    margin: 2rem 0 0;
+    text-align: center;
+    width:100%;
+}
+
+.button-property {
+    background: #323b55;
+    border: 0;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.error {
+    color:red;
+    font-size:15px;
+}
+
+.form-field {
+    margin-bottom:20px;
+}
+
+.form-field-input {
+    width:100%;
+    height:44px;
+    border:1px solid black;  
+    padding:10px; 
+}
+
+.forgot-password {
+    padding: 1.5rem 0 1rem;
+    text-align:center;
+    width:100%;
+    letter-spacing:1px;
+}
+
+.loginbody {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.loginbody a {
+    font-size:15px;
+}
+
+.logincontainer {
+    width: 100%;
+    max-width: 380px;
+    padding: 1rem;
+}
+
+.logo {
+    justify-content:center;
+    height: 32px;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+.logo h1 {
+    margin:0;
+    color:black;
+    font-size:30px;
+}
+
+.return-to-landingpage {
+    text-align:center;
+    padding:10px 0;
+    width:100%;
+}
+
+.signupbody {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.signupbody a {
+    font-size:15px;
+}
+
+.signupcontainer {
+    width: 100%;
+    max-width: 380px;
+    padding: 1rem;
+}
+
+.title {
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.title p {
+    font-size:20px;
+    color:black;
+    text-transform:match-auto;
+    margin:0px;
+}
+
+.term {
+    padding: 1.5rem 0 1rem;
+    text-align:center;
+    width:100%;
+    letter-spacing:1px;
+}

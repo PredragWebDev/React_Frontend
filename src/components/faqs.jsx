@@ -37,7 +37,7 @@ FAQs
  <div className="answer">No, but the Simulator is completely mobile responsive and will work on your iOS or Android device in your preferred web browser.</div>
  </div>
  <div className="faq_n">
- <a href="" id="get_started_btn" className="getstared-btn">GET STARTED</a>
+ <a href="/signup" id="get_started_btn" className="getstared-btn">GET STARTED</a>
 </div>
 </div>
   )

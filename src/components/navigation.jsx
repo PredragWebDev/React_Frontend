@@ -10,15 +10,13 @@ export const Navigation = (props) => {
           TrandingPlace
         </h1>
 
-        
-        
-
         <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
-        >
-          <a href="" id="get_started_btn" className="getstared-btn">GET STARTED</a>
-          <a href="" id="login_btn" className="login-btn">LOG IN</a>
+            className='collapse navbar-collapse'
+            id='bs-example-navbar-collapse-1'
+          >
+          <a href = "/signup" id="get_started_btn" className="getstared-btn">GET STARTED</a>
+          <a href ="/login" id="login_btn" className="login-btn">LOG IN</a>
+
         </div>
       </div>
     </nav>

@@ -6,7 +6,7 @@ export const Trade = (props) => {
       <div className='mainboard'>
         
         <div className='img'>
-          <img src="./img/mobile.svg" alt="" className="image"/>
+          <img src="./img/trade.svg" alt="" className="image"/>
         </div>
 
         <div className='txt'>
